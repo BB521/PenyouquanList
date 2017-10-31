@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		677356919DD8553CB11C5B94 /* libPods-朋友圈高性能.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56E60FD1F04128E97F45E425 /* libPods-朋友圈高性能.a */; };
+		8D6CF7F31FA2E335002303AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6CF7F21FA2E335002303AA /* main.m */; };
+		8D6CF7F61FA2E335002303AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6CF7F51FA2E335002303AA /* AppDelegate.m */; };
+		8D6CF7F91FA2E335002303AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6CF7F81FA2E335002303AA /* ViewController.m */; };
+		8D6CF7FC1FA2E335002303AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D6CF7FA1FA2E335002303AA /* Main.storyboard */; };
+		8D6CF7FE1FA2E335002303AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D6CF7FD1FA2E335002303AA /* Assets.xcassets */; };
+		8D6CF8011FA2E335002303AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D6CF7FF1FA2E335002303AA /* LaunchScreen.storyboard */; };
+		8D6CF80C1FA2E335002303AA /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6CF80B1FA2E335002303AA /* ______Tests.m */; };
+		8D6CF8171FA2E335002303AA /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6CF8161FA2E335002303AA /* ______UITests.m */; };
+		8D6CF8261FA2E49E002303AA /* PenyouquanCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6CF8251FA2E49E002303AA /* PenyouquanCell.m */; };
+		8D7780C11FA5A19B002305E6 /* UITableView+FDIndexPathHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7780BA1FA5A19B002305E6 /* UITableView+FDIndexPathHeightCache.m */; };
+		8D7780C21FA5A19B002305E6 /* UITableView+FDKeyedHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7780BC1FA5A19B002305E6 /* UITableView+FDKeyedHeightCache.m */; };
+		8D7780C31FA5A19B002305E6 /* UITableView+FDTemplateLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7780BE1FA5A19B002305E6 /* UITableView+FDTemplateLayoutCell.m */; };
+		8D7780C41FA5A19B002305E6 /* UITableView+FDTemplateLayoutCellDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7780C01FA5A19B002305E6 /* UITableView+FDTemplateLayoutCellDebug.m */; };
+		8D9F221D1FA6CED90014F63D /* PenyouquanModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F221C1FA6CED90014F63D /* PenyouquanModal.m */; };
+		8D9F22201FA701A90014F63D /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F221F1FA701A90014F63D /* YYFPSLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D6CF8081FA2E335002303AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D6CF7E61FA2E335002303AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D6CF7ED1FA2E335002303AA;
+			remoteInfo = "朋友圈高性能";
+		};
+		8D6CF8131FA2E335002303AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D6CF7E61FA2E335002303AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D6CF7ED1FA2E335002303AA;
+			remoteInfo = "朋友圈高性能";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		56E60FD1F04128E97F45E425 /* libPods-朋友圈高性能.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-朋友圈高性能.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D6CF7EE1FA2E335002303AA /* 朋友圈高性能.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "朋友圈高性能.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D6CF7F21FA2E335002303AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D6CF7F41FA2E335002303AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8D6CF7F51FA2E335002303AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8D6CF7F71FA2E335002303AA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8D6CF7F81FA2E335002303AA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8D6CF7FB1FA2E335002303AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D6CF7FD1FA2E335002303AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D6CF8001FA2E335002303AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D6CF8021FA2E335002303AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D6CF8071FA2E335002303AA /* 朋友圈高性能Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "朋友圈高性能Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D6CF80B1FA2E335002303AA /* ______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______Tests.m"; sourceTree = "<group>"; };
+		8D6CF80D1FA2E335002303AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D6CF8121FA2E335002303AA /* 朋友圈高性能UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "朋友圈高性能UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D6CF8161FA2E335002303AA /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
+		8D6CF8181FA2E335002303AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D6CF8241FA2E49E002303AA /* PenyouquanCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PenyouquanCell.h; sourceTree = "<group>"; };
+		8D6CF8251FA2E49E002303AA /* PenyouquanCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PenyouquanCell.m; sourceTree = "<group>"; };
+		8D7780B91FA5A19B002305E6 /* UITableView+FDIndexPathHeightCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDIndexPathHeightCache.h"; sourceTree = "<group>"; };
+		8D7780BA1FA5A19B002305E6 /* UITableView+FDIndexPathHeightCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDIndexPathHeightCache.m"; sourceTree = "<group>"; };
+		8D7780BB1FA5A19B002305E6 /* UITableView+FDKeyedHeightCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDKeyedHeightCache.h"; sourceTree = "<group>"; };
+		8D7780BC1FA5A19B002305E6 /* UITableView+FDKeyedHeightCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDKeyedHeightCache.m"; sourceTree = "<group>"; };
+		8D7780BD1FA5A19B002305E6 /* UITableView+FDTemplateLayoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDTemplateLayoutCell.h"; sourceTree = "<group>"; };
+		8D7780BE1FA5A19B002305E6 /* UITableView+FDTemplateLayoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDTemplateLayoutCell.m"; sourceTree = "<group>"; };
+		8D7780BF1FA5A19B002305E6 /* UITableView+FDTemplateLayoutCellDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDTemplateLayoutCellDebug.h"; sourceTree = "<group>"; };
+		8D7780C01FA5A19B002305E6 /* UITableView+FDTemplateLayoutCellDebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDTemplateLayoutCellDebug.m"; sourceTree = "<group>"; };
+		8D9F221B1FA6CED90014F63D /* PenyouquanModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PenyouquanModal.h; sourceTree = "<group>"; };
+		8D9F221C1FA6CED90014F63D /* PenyouquanModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PenyouquanModal.m; sourceTree = "<group>"; };
+		8D9F221E1FA701A90014F63D /* YYFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFPSLabel.h; sourceTree = "<group>"; };
+		8D9F221F1FA701A90014F63D /* YYFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFPSLabel.m; sourceTree = "<group>"; };
+		B24063022D47E3CDC3A07CF9 /* Pods-朋友圈高性能.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-朋友圈高性能.release.xcconfig"; path = "Pods/Target Support Files/Pods-朋友圈高性能/Pods-朋友圈高性能.release.xcconfig"; sourceTree = "<group>"; };
+		E4575388A7C2DE3D72B899A5 /* Pods-朋友圈高性能.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-朋友圈高性能.debug.xcconfig"; path = "Pods/Target Support Files/Pods-朋友圈高性能/Pods-朋友圈高性能.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D6CF7EB1FA2E335002303AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				677356919DD8553CB11C5B94 /* libPods-朋友圈高性能.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D6CF8041FA2E335002303AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D6CF80F1FA2E335002303AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67D5EE7C947B87A6B2D7933C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56E60FD1F04128E97F45E425 /* libPods-朋友圈高性能.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6CCA01DE8B09506E0E41CDBD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4575388A7C2DE3D72B899A5 /* Pods-朋友圈高性能.debug.xcconfig */,
+				B24063022D47E3CDC3A07CF9 /* Pods-朋友圈高性能.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8D6CF7E51FA2E335002303AA = {
+			isa = PBXGroup;
+			children = (
+				8D6CF7F01FA2E335002303AA /* 朋友圈高性能 */,
+				8D6CF80A1FA2E335002303AA /* 朋友圈高性能Tests */,
+				8D6CF8151FA2E335002303AA /* 朋友圈高性能UITests */,
+				8D6CF7EF1FA2E335002303AA /* Products */,
+				6CCA01DE8B09506E0E41CDBD /* Pods */,
+				67D5EE7C947B87A6B2D7933C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8D6CF7EF1FA2E335002303AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D6CF7EE1FA2E335002303AA /* 朋友圈高性能.app */,
+				8D6CF8071FA2E335002303AA /* 朋友圈高性能Tests.xctest */,
+				8D6CF8121FA2E335002303AA /* 朋友圈高性能UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D6CF7F01FA2E335002303AA /* 朋友圈高性能 */ = {
+			isa = PBXGroup;
+			children = (
+				8D7780B81FA5A19B002305E6 /* Classes */,
+				8D6CF7F41FA2E335002303AA /* AppDelegate.h */,
+				8D6CF7F51FA2E335002303AA /* AppDelegate.m */,
+				8D6CF7F71FA2E335002303AA /* ViewController.h */,
+				8D6CF7F81FA2E335002303AA /* ViewController.m */,
+				8D6CF8241FA2E49E002303AA /* PenyouquanCell.h */,
+				8D6CF8251FA2E49E002303AA /* PenyouquanCell.m */,
+				8D9F221B1FA6CED90014F63D /* PenyouquanModal.h */,
+				8D9F221C1FA6CED90014F63D /* PenyouquanModal.m */,
+				8D6CF7FA1FA2E335002303AA /* Main.storyboard */,
+				8D6CF7FD1FA2E335002303AA /* Assets.xcassets */,
+				8D6CF7FF1FA2E335002303AA /* LaunchScreen.storyboard */,
+				8D6CF8021FA2E335002303AA /* Info.plist */,
+				8D6CF7F11FA2E335002303AA /* Supporting Files */,
+			);
+			path = "朋友圈高性能";
+			sourceTree = "<group>";
+		};
+		8D6CF7F11FA2E335002303AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D6CF7F21FA2E335002303AA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D6CF80A1FA2E335002303AA /* 朋友圈高性能Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8D6CF80B1FA2E335002303AA /* ______Tests.m */,
+				8D6CF80D1FA2E335002303AA /* Info.plist */,
+			);
+			path = "朋友圈高性能Tests";
+			sourceTree = "<group>";
+		};
+		8D6CF8151FA2E335002303AA /* 朋友圈高性能UITests */ = {
+			isa = PBXGroup;
+			children = (
+				8D6CF8161FA2E335002303AA /* ______UITests.m */,
+				8D6CF8181FA2E335002303AA /* Info.plist */,
+			);
+			path = "朋友圈高性能UITests";
+			sourceTree = "<group>";
+		};
+		8D7780B81FA5A19B002305E6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8D9F221E1FA701A90014F63D /* YYFPSLabel.h */,
+				8D9F221F1FA701A90014F63D /* YYFPSLabel.m */,
+				8D7780B91FA5A19B002305E6 /* UITableView+FDIndexPathHeightCache.h */,
+				8D7780BA1FA5A19B002305E6 /* UITableView+FDIndexPathHeightCache.m */,
+				8D7780BB1FA5A19B002305E6 /* UITableView+FDKeyedHeightCache.h */,
+				8D7780BC1FA5A19B002305E6 /* UITableView+FDKeyedHeightCache.m */,
+				8D7780BD1FA5A19B002305E6 /* UITableView+FDTemplateLayoutCell.h */,
+				8D7780BE1FA5A19B002305E6 /* UITableView+FDTemplateLayoutCell.m */,
+				8D7780BF1FA5A19B002305E6 /* UITableView+FDTemplateLayoutCellDebug.h */,
+				8D7780C01FA5A19B002305E6 /* UITableView+FDTemplateLayoutCellDebug.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D6CF7ED1FA2E335002303AA /* 朋友圈高性能 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D6CF81B1FA2E335002303AA /* Build configuration list for PBXNativeTarget "朋友圈高性能" */;
+			buildPhases = (
+				F956456535564952E9131AEE /* [CP] Check Pods Manifest.lock */,
+				8D6CF7EA1FA2E335002303AA /* Sources */,
+				8D6CF7EB1FA2E335002303AA /* Frameworks */,
+				8D6CF7EC1FA2E335002303AA /* Resources */,
+				BEDA3AAAFB2D835105250D76 /* [CP] Embed Pods Frameworks */,
+				F5E18DFBD50C1AC097ACE4B6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "朋友圈高性能";
+			productName = "朋友圈高性能";
+			productReference = 8D6CF7EE1FA2E335002303AA /* 朋友圈高性能.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D6CF8061FA2E335002303AA /* 朋友圈高性能Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D6CF81E1FA2E335002303AA /* Build configuration list for PBXNativeTarget "朋友圈高性能Tests" */;
+			buildPhases = (
+				8D6CF8031FA2E335002303AA /* Sources */,
+				8D6CF8041FA2E335002303AA /* Frameworks */,
+				8D6CF8051FA2E335002303AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D6CF8091FA2E335002303AA /* PBXTargetDependency */,
+			);
+			name = "朋友圈高性能Tests";
+			productName = "朋友圈高性能Tests";
+			productReference = 8D6CF8071FA2E335002303AA /* 朋友圈高性能Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8D6CF8111FA2E335002303AA /* 朋友圈高性能UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D6CF8211FA2E335002303AA /* Build configuration list for PBXNativeTarget "朋友圈高性能UITests" */;
+			buildPhases = (
+				8D6CF80E1FA2E335002303AA /* Sources */,
+				8D6CF80F1FA2E335002303AA /* Frameworks */,
+				8D6CF8101FA2E335002303AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D6CF8141FA2E335002303AA /* PBXTargetDependency */,
+			);
+			name = "朋友圈高性能UITests";
+			productName = "朋友圈高性能UITests";
+			productReference = 8D6CF8121FA2E335002303AA /* 朋友圈高性能UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D6CF7E61FA2E335002303AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Binbin Mu";
+				TargetAttributes = {
+					8D6CF7ED1FA2E335002303AA = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7CSFXZF6HS;
+						ProvisioningStyle = Automatic;
+					};
+					8D6CF8061FA2E335002303AA = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7CSFXZF6HS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8D6CF7ED1FA2E335002303AA;
+					};
+					8D6CF8111FA2E335002303AA = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7CSFXZF6HS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8D6CF7ED1FA2E335002303AA;
+					};
+				};
+			};
+			buildConfigurationList = 8D6CF7E91FA2E335002303AA /* Build configuration list for PBXProject "朋友圈高性能" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D6CF7E51FA2E335002303AA;
+			productRefGroup = 8D6CF7EF1FA2E335002303AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D6CF7ED1FA2E335002303AA /* 朋友圈高性能 */,
+				8D6CF8061FA2E335002303AA /* 朋友圈高性能Tests */,
+				8D6CF8111FA2E335002303AA /* 朋友圈高性能UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D6CF7EC1FA2E335002303AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D6CF8011FA2E335002303AA /* LaunchScreen.storyboard in Resources */,
+				8D6CF7FE1FA2E335002303AA /* Assets.xcassets in Resources */,
+				8D6CF7FC1FA2E335002303AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D6CF8051FA2E335002303AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D6CF8101FA2E335002303AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BEDA3AAAFB2D835105250D76 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-朋友圈高性能/Pods-朋友圈高性能-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5E18DFBD50C1AC097ACE4B6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-朋友圈高性能/Pods-朋友圈高性能-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F956456535564952E9131AEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D6CF7EA1FA2E335002303AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D7780C21FA5A19B002305E6 /* UITableView+FDKeyedHeightCache.m in Sources */,
+				8D7780C41FA5A19B002305E6 /* UITableView+FDTemplateLayoutCellDebug.m in Sources */,
+				8D7780C31FA5A19B002305E6 /* UITableView+FDTemplateLayoutCell.m in Sources */,
+				8D6CF8261FA2E49E002303AA /* PenyouquanCell.m in Sources */,
+				8D6CF7F91FA2E335002303AA /* ViewController.m in Sources */,
+				8D6CF7F61FA2E335002303AA /* AppDelegate.m in Sources */,
+				8D9F22201FA701A90014F63D /* YYFPSLabel.m in Sources */,
+				8D7780C11FA5A19B002305E6 /* UITableView+FDIndexPathHeightCache.m in Sources */,
+				8D6CF7F31FA2E335002303AA /* main.m in Sources */,
+				8D9F221D1FA6CED90014F63D /* PenyouquanModal.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D6CF8031FA2E335002303AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D6CF80C1FA2E335002303AA /* ______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D6CF80E1FA2E335002303AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D6CF8171FA2E335002303AA /* ______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D6CF8091FA2E335002303AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D6CF7ED1FA2E335002303AA /* 朋友圈高性能 */;
+			targetProxy = 8D6CF8081FA2E335002303AA /* PBXContainerItemProxy */;
+		};
+		8D6CF8141FA2E335002303AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D6CF7ED1FA2E335002303AA /* 朋友圈高性能 */;
+			targetProxy = 8D6CF8131FA2E335002303AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8D6CF7FA1FA2E335002303AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D6CF7FB1FA2E335002303AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8D6CF7FF1FA2E335002303AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D6CF8001FA2E335002303AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D6CF8191FA2E335002303AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D6CF81A1FA2E335002303AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D6CF81C1FA2E335002303AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4575388A7C2DE3D72B899A5 /* Pods-朋友圈高性能.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7CSFXZF6HS;
+				INFOPLIST_FILE = "朋友圈高性能/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dd.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8D6CF81D1FA2E335002303AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B24063022D47E3CDC3A07CF9 /* Pods-朋友圈高性能.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7CSFXZF6HS;
+				INFOPLIST_FILE = "朋友圈高性能/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dd.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8D6CF81F1FA2E335002303AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7CSFXZF6HS;
+				INFOPLIST_FILE = "朋友圈高性能Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dd.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/朋友圈高性能.app/朋友圈高性能";
+			};
+			name = Debug;
+		};
+		8D6CF8201FA2E335002303AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7CSFXZF6HS;
+				INFOPLIST_FILE = "朋友圈高性能Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dd.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/朋友圈高性能.app/朋友圈高性能";
+			};
+			name = Release;
+		};
+		8D6CF8221FA2E335002303AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7CSFXZF6HS;
+				INFOPLIST_FILE = "朋友圈高性能UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dd.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "朋友圈高性能";
+			};
+			name = Debug;
+		};
+		8D6CF8231FA2E335002303AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7CSFXZF6HS;
+				INFOPLIST_FILE = "朋友圈高性能UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dd.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "朋友圈高性能";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D6CF7E91FA2E335002303AA /* Build configuration list for PBXProject "朋友圈高性能" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D6CF8191FA2E335002303AA /* Debug */,
+				8D6CF81A1FA2E335002303AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D6CF81B1FA2E335002303AA /* Build configuration list for PBXNativeTarget "朋友圈高性能" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D6CF81C1FA2E335002303AA /* Debug */,
+				8D6CF81D1FA2E335002303AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D6CF81E1FA2E335002303AA /* Build configuration list for PBXNativeTarget "朋友圈高性能Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D6CF81F1FA2E335002303AA /* Debug */,
+				8D6CF8201FA2E335002303AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D6CF8211FA2E335002303AA /* Build configuration list for PBXNativeTarget "朋友圈高性能UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D6CF8221FA2E335002303AA /* Debug */,
+				8D6CF8231FA2E335002303AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D6CF7E61FA2E335002303AA /* Project object */;
+}
